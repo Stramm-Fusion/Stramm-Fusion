@@ -118,7 +118,7 @@
                 </h1>
                 <p id="cv" style="font-size: 0.8em; color: #ccc; margin-top: 5px; font-style: italic; text-transform: uppercase; letter-spacing: 2px;"></p>
             </div>
-            <img src="https://github.com/Stramm-Fusion/Stramm-Fusion/blob/main/Image2.jpg?raw=true" style="border-radius: 50%; width: 100px; height: 100px; box-shadow: 0 0 15px rgba(255,255,255,0.4); margin-left: 20px; transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease; opacity: 0; animation: fadeIn 1s forwards 2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+            <img src=https://github.com/Stramm-Fusion/Stramm-Fusion/blob/main/Image2.jpg?raw=true" style="border-radius: 50%; width: 100px; height: 100px; box-shadow: 0 0 15px rgba(255,255,255,0.4); margin-left: 20px; transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease; opacity: 0; animation: fadeIn 1s forwards 2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
         </div>
     </div>
     <script>
@@ -447,28 +447,29 @@ J'ai appris l'importance du travail collaboratif et de la gestion efficace du st
     </details>
 
     <details>
-        <summary style="font-size: 1.2em; color: #fff; cursor: pointer; padding: 10px; background-color: rgba(144, 144, 144, 0.8); border-radius: 5px; margin-bottom: 10px; transition: background-color 0.3s ease, transform 0.3s ease; position: sticky; top: 120px; z-index: 98; overflow: visible;" onmouseover="this.style.transform='scale(1.05)'; this.querySelector('.highlight').style.left='100%'" onmouseout="this.style.transform='scale(1)'; this.querySelector('.highlight').style.left='-100%'">
-    Responsable Technique (5 ans) <span style="float: right; font-size: 0.9em; opacity: 0.8;">
-    <span class="toggle-text">Afficher</span>
-    <script>
-    (function() {
-        const toggleText = document.currentScript.previousElementSibling;
-        const summary = document.currentScript.closest('summary');
-        const details = summary.closest('details');
-        
-        details.addEventListener('toggle', function() {
-            if (this.open) {
-                toggleText.textContent = 'Fermer';
-                summary.style.backgroundColor = 'rgba(52, 152, 219, 0.8)'; // Bleu plus vif
-            } else {
-                toggleText.textContent = 'Afficher';
-                summary.style.backgroundColor = 'rgba(144, 144, 144, 0.8)'; // Retour à la couleur originale
-            }
-        });
-    })();
-    </script>
+<summary style="font-size: 1.2em; color: #fff; cursor: pointer; padding: 10px; background-color: rgba(144, 144, 144, 0.8); border-radius: 5px; margin-bottom: 10px; transition: background-color 0.3s ease, transform 0.3s ease; position: sticky; top: 120px; z-index: 98; overflow: hidden;" onmouseover="this.style.transform='scale(1.05)'; this.querySelector('.highlight').style.left='100%'" onmouseout="this.style.transform='scale(1)'; this.querySelector('.highlight').style.left='-100%'">
+    Responsable technique (5 ans) 
+    <span style="float: right; font-size: 0.9em; opacity: 0.8;">
+        <span class="toggle-text">Afficher</span>
+        <script>
+        (function() {
+            const toggleText = document.currentScript.previousElementSibling;
+            const summary = document.currentScript.closest('summary');
+            const details = summary.closest('details');
+            
+            details.addEventListener('toggle', function() {
+                if (this.open) {
+                    toggleText.textContent = 'Fermer';
+                    summary.style.backgroundColor = 'rgba(52, 152, 219, 0.8)'; // Bleu plus vif
+                } else {
+                    toggleText.textContent = 'Afficher';
+                    summary.style.backgroundColor = 'rgba(144, 144, 144, 0.8)'; // Retour à la couleur originale
+                }
+            });
+        })();
+        </script>
     </span>
-    <span class="highlight"></span>
+    <span></span>
 </summary>
         <div style="list-style-type: none; padding-left: 20px; background-color: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: #2c3e50; margin-bottom: 15px; font-size: 1.4em;">Expertise en tant que Responsable Technique</h3>
